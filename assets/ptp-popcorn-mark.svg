@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 48" role="img" aria-label="PassThePopcorn Sideways logo">
+  <path d="M9 35c5.8-8.2 12-14.2 18.8-18.5 4.3-2.8 8.5-4.5 12.7-5.2" fill="none" stroke="#2f3b4f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M9 35c5.8-8.2 12-14.2 18.8-18.5 4.3-2.8 8.5-4.5 12.7-5.2" fill="none" stroke="#4b9cff" stroke-width="2.2" stroke-linecap="round"/>
+  <g class="corn">
+    <path d="M14 22h24l-2.3 16.2a22 22 0 0 1-19.4 0L14 22Z" fill="#172334" stroke="#78b7ff" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M17.8 23.2h5.1l.8 15.7a16 16 0 0 1-5.2-1.2l-.7-14.5Zm12.3 0h5.1l-.7 14.5a16 16 0 0 1-5.2 1.2l.8-15.7Z" fill="#4b9cff"/>
+    <path d="M23 23.2h7.1v16.3a17 17 0 0 1-7.1 0V23.2Z" fill="#f4f7ff"/>
+    <path d="M17.8 21.7c-2.6-.4-3.5-3.8-1.2-5.2 1-.6 2.3-.4 3 .4.2-2.5 3.4-3.4 4.8-1.3 1.3-1.9 4.2-1 4.2 1.3 1.6-1.1 3.9-.1 3.8 2-.1 1.8-1.6 2.9-3.3 2.9H17.8Z" fill="#f7fbff" stroke="#9dccff" stroke-width="1.1" stroke-linejoin="round"/>
+  </g>
+  <circle class="spark spark-gold" cx="41.5" cy="10.5" r="2.8" fill="#f0c866"/>
+  <circle class="spark spark-green" cx="45.5" cy="19" r="1.8" fill="#77d58a"/>
+</svg>
