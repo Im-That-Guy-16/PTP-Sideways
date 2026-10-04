@@ -4,8 +4,8 @@
 // @version      1.1.11
 // @description  Every PTP userscript in one install: TMDB Enricher, TMDB People, Latest Digital, IMDb Parents Guide via GraphQL, Radarr integration, fanart.tv Clearlogo panel, trailer modal, collapsible torrent categories, homepage Top 10 poster strip, and single-row Top 10 posters. Modules are individually gated to the pages their standalone versions matched, and each is isolated so one failure can't take down the rest.
 // @author       you
-// @updateURL    https://gitlab.com/Prism_16/PTP-Sideways/-/raw/main/PTP%20Suite.user.js?inline=false
-// @downloadURL  https://gitlab.com/Prism_16/PTP-Sideways/-/raw/main/PTP%20Suite.user.js?inline=false
+// @updateURL    https://raw.githubusercontent.com/Im-That-Guy-16/PTP-Sideways/main/PTP%20Suite.user.js?inline=false
+// @downloadURL  https://raw.githubusercontent.com/Im-That-Guy-16/PTP-Sideways/main/PTP%20Suite.user.js?inline=false
 // @match        *://passthepopcorn.me/*
 // @match        *://www.passthepopcorn.me/*
 // @connect      api.themoviedb.org

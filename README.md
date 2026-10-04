@@ -53,7 +53,7 @@ userstyle manager such as [Stylus](https://add0n.com/stylus.html).
 Install with [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/):
 
 ```text
-https://gitlab.com/Prism_16/PTP-Sideways/-/raw/main/PTP%20Suite.user.js?inline=false
+https://raw.githubusercontent.com/Im-That-Guy-16/PTP-Sideways/main/PTP%20Suite.user.js?inline=false
 ```
 
 > Disable any older standalone scripts that duplicate these modules first, or you
