@@ -1,72 +1,47 @@
 <p align="center">
-  <img src="assets/header.png" alt="PTP Sideways" width="100%">
+  <img src="brand/readme-banner.svg" alt="CSS and userscript package banner" width="100%">
 </p>
-
-<h1 align="center">PTP Sideways</h1>
-
-<p align="center"><em>A widescreen dark theme paired with an all-in-one companion userscript.</em></p>
 
 <p align="center">
-  <img alt="Type" src="https://img.shields.io/badge/Type-Theme%20%2B%20Userscript-0F172A?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/Version-1.1.11-38BDF8?style=for-the-badge">
-  <img alt="CSS" src="https://img.shields.io/badge/CSS-Dark%20Widescreen-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img alt="Userscript" src="https://img.shields.io/badge/Userscript-All--In--One-2563EB?style=for-the-badge">
-  <img alt="Tampermonkey" src="https://img.shields.io/badge/Tampermonkey-Ready-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white">
-  <img alt="Licence" src="https://img.shields.io/badge/Licence-MIT-22C55E?style=for-the-badge">
+  <img alt="Type" src="https://img.shields.io/badge/Type-CSS%20%2B%20Userscript-111827?style=for-the-badge">
+  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img alt="Visibility" src="https://img.shields.io/badge/Visibility-Public-22C55E?style=for-the-badge&logo=github&logoColor=white">
 </p>
 
----
+# CSS & Userscript Package
 
-## Overview
+A public stylesheet and userscript package maintained for browser customization.
 
-PTP Sideways is a paired stylesheet and userscript bundle. The CSS provides the
-widescreen dark restyle; the userscript merges every companion script into a single
-install, with each module gated to the pages its standalone version matched and
-isolated so one failure cannot take down the rest.
+## Highlights
 
-| File | Role |
-|---|---|
-| `PassThatPopcorn.css` | Widescreen dark restyle |
-| `PTP Suite.user.js` | All companion modules in one install |
-
-## Features
-
-- **TMDb enricher** — richer detail pages with hero art and extended metadata.
-- **TMDb people** — cast and crew cards.
-- **Latest digital** — recent digital release surfacing.
-- **IMDb Parents Guide** via GraphQL, with colour-coded categories.
-- **Radarr integration** with multi-server status and one-click add.
-- **Fanart.tv ClearLogo** panel.
-- **Trailer modal** with a clean embedded player.
-- **Collapsible categories** on detail pages.
-- **Homepage Top 10** poster strip, plus a single-row poster layout.
+- Hosted stylesheet files for browser-based custom styling.
+- Userscript files with manager-friendly update metadata.
+- Public GitHub Pages delivery for direct installation links.
+- Clean GitHub-only links with no legacy host references.
 
 ## Install
 
-### 1. Stylesheet
+Use the GitHub repository homepage link to open the hosted package page.
 
-Load `PassThatPopcorn.css` through your profile's stylesheet setting, or in a
-userstyle manager such as [Stylus](https://add0n.com/stylus.html).
+Use a userstyle manager for stylesheet files and a userscript manager such as Tampermonkey or Violentmonkey for `.user.js` files.
 
-### 2. Userscript
+## Published Assets
 
-Install with [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/):
+- Stylesheets are available from the repository and GitHub Pages host.
+- Userscripts are available from the repository and GitHub Pages host.
+- The repo homepage points at the GitHub Pages deployment.
 
-```text
-https://raw.githubusercontent.com/Im-That-Guy-16/PTP-Sideways/main/PTP%20Suite.user.js?inline=false
-```
+## Repository Map
 
-> Disable any older standalone scripts that duplicate these modules first, or you
-> will get duplicate panels.
+- `brand/` - project assets and source files.
+- `assets/` - project assets and source files.
 
-### 3. API keys
+## Maintenance
 
-The script stores your own keys in userscript-manager storage via the manager menu.
-TMDb powers the enricher and people modules; Fanart.tv powers the logo panel; Radarr
-needs your server URL and key. Modules without a configured key skip themselves.
+- Keep install and update URLs on GitHub or GitHub Pages.
+- Avoid naming target communities or private destinations in public-facing docs.
+- Check userscript metadata whenever files move.
 
-No keys are stored in this repository.
+## License
 
-## Licence
-
-Released under the [MIT Licence](LICENSE).
+See [LICENSE](LICENSE) if present in this repository.
